@@ -21,6 +21,7 @@ char* CObject_2D::m_paTextPass[CObject::TEXTURE_TYPE_MAX] =
 	" ",													//TextureNull
 
 	"data\\TEXTURE\\Block.png",								//TEXTURE_BLOCK,
+	"data\\TEXTURE\\Floor_01.png",								//TEXTURE_FLOOR
 	"data\\TEXTURE\\Characters.png",						//TEXTURE_CHARACTERS,
 	"data\\TEXTURE\\Alphabet.png",							//TEXTURE_LETTERS,
 	"data\\TEXTURE\\Numbers.png"							//TEXTURE_NUMBERS,

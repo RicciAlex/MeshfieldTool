@@ -103,8 +103,8 @@ HRESULT CApplication::Init(HINSTANCE hInstance, HWND hWnd)
 	m_pCamera = CCamera::Create(D3DXVECTOR3(0.0f, 0.0f, -300.0f), D3DXVECTOR3(0.0f, -200.0f, 300.0f));
 
 	//CMeshfield* pField = CMeshfield::Create(D3DXVECTOR3(-500.0f, -300.0f, 500.0f), Vec3Null, "data\\FieldData\\VtxSave.txt", 3);
-	//CMeshfield* pField = CMeshfield::Create(D3DXVECTOR3(-500.0f, -300.0f, 500.0f), Vec3Null, "data\\FieldData\\VMeshData.txt", 3);//CMeshfield::Create(D3DXVECTOR3(-500.0f, -300.0f, 500.0f), Vec3Null, D3DXVECTOR2(50.0f, 50.0f), 15, 10, 3);
-	CMeshfield* pField = CMeshfield::Create(D3DXVECTOR3(-500.0f, -300.0f, 500.0f), Vec3Null, D3DXVECTOR2(50.0f, 50.0f), 15, 5, 3);
+	CMeshfield* pField = CMeshfield::Create(D3DXVECTOR3(-500.0f, -300.0f, 500.0f), Vec3Null, "data\\FieldData\\PitFall_Stage_01.txt", 3);//CMeshfield::Create(D3DXVECTOR3(-500.0f, -300.0f, 500.0f), Vec3Null, D3DXVECTOR2(50.0f, 50.0f), 15, 10, 3);
+	//CMeshfield* pField = CMeshfield::Create(D3DXVECTOR3(-500.0f, -300.0f, 500.0f), Vec3Null, D3DXVECTOR2(50.0f, 50.0f), 10, 20, 3);
 	pField->SetTexture(CObject::TEXTURE_BLOCK);
 	pField->SetTextureTiling(0.33f);
 
